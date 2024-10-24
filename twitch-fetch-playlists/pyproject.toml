@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "twitch-fetch-playlists"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiohttp = "^3.10.10"
+curl-cffi = "^0.7.3"
+m3u8 = "^6.0.0"
+pydantic = "^2.9.2"
+python-slugify = "^8.0.4"
+typed-argparse = "^0.3.1"
+python-dateutil = "^2.9.0.post0"
+
+
+[tool.poetry.group.dev.dependencies]
+pyright = "^1.1.386"
+datamodel-code-generator = "^0.26.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
